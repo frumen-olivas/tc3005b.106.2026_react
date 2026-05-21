@@ -6,7 +6,8 @@ import ResponsiveAppBar from './components/AppBar'
 import { useEffect, useState } from 'react'
 import Admin from './views/Admin'
 
-const API_URL = "http://localhost:8000"
+// const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8000"
+const API_URL = "https://frumen2.up.railway.app"
 // const usuarios = [{_id:1, name:"primero"},{_id:2, name:"segundo"}]
 
 function App() {
